@@ -21,5 +21,14 @@
     }
     printodd();
     ?>
+    <?php
+    
+    function area($radius){
+        echo 3.14*$radius**2;
+    }
+    area(27);
+    ?>
+
+    
 </body>
 </html>
