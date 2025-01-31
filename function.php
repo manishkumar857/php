@@ -46,6 +46,20 @@
     ?>
 
 
+    <?php
+    #variable function
     
+    function hello(){
+        echo"Hello Variable Function !!!\n";
+    }
+    function a()
+    {
+        echo "Hello normal function \n";
+    }
+
+    $func="hello";
+    $func();
+    a();
+    ?>
 </body>
 </html>
