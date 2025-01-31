@@ -27,7 +27,24 @@
         echo 3.14*$radius**2;
     }
     area(27);
+    ?> 
+
+    <?php
+   function strconvart($string,$isupper){
+    if($isupper){
+        return strtoupper($string);
+    }else{
+        return strtolower($string);
+    }}
+    $string = "Hello World! ";
+    $isupper = true;
+    $result = strconvart($string,$isupper);
+    echo $result;
+    $isupper = false;
+    $result = strconvart($string,$isupper);
+    echo $result;
     ?>
+
 
     
 </body>
