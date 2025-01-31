@@ -62,11 +62,19 @@
     // a();
 
     #Anonymys function
-    $noname = function()
-    {
-        return "Hello, Anonmymous Function!";
-    };
-    echo $noname();
+    // $noname = function($a,$b)
+    // {
+    //     return "Hello, Anonmymous Function!".$a+$b;
+    // };
+    // echo $noname(10,15);
+
+    #php call by reference
+    function increment(&$num){
+        $num++;
+    }
+    $value=5;
+    increment($value);
+    echo $value;
     ?>
 </body>
 </html>
