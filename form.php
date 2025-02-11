@@ -8,7 +8,7 @@
     <h2 >Student Registration Form</h2>
 
     <form method="post">
-        <table  border="1" >
+        <table  border="1"  style="background-color:lightblue">
             <tr>
                 <td><label for="name">Full Name:</label></td>
                 <td><input type="text" name="name" id="name" required></td>
